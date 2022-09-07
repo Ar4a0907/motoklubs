@@ -245,7 +245,6 @@ header {
 footer {
   background: #1A3D77;
   position: relative;
-  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
   padding: 67px 0 49px 0;
@@ -392,6 +391,12 @@ section {
   }
 }
 
+.section-wrap {
+  &.gray {
+    background-color: #F1F1F1;
+  }
+}
+
 .flexbox {
   display: flex;
   column-gap: 100px;
@@ -448,7 +453,8 @@ section {
     background-color: #000;
     background-size: cover;
     transition: 0.3s ease-in-out;
-    aspect-ratio: 605/600;
+    aspect-ratio: 1/1;
+    max-height: 606px;
 
     * {
       transition: 0.5s ease-in-out;
