@@ -622,7 +622,7 @@ section {
         opacity: 0;
       }
 
-      a {
+      .btn {
         font-weight: 400;
         font-size: 18px;
         line-height: 110%;
@@ -651,7 +651,7 @@ section {
       padding: 50px;
       color: #50BCEA;
 
-      a {
+      .btn {
         border: 1px solid #50BCEA;
         padding: 10px 20px;
         font-weight: 400;
@@ -704,7 +704,7 @@ section {
       .img-wrap img {
         transform: scale(1.03);
       }
-      .img-wrap a {
+      .img-wrap .btn {
         opacity: 1;
         transform: none;
       }
@@ -1151,7 +1151,7 @@ input[type="checkbox"] {
   .pasakumi .item {
     width: 70%;
   }
-  .noma .item .img-wrap a {
+  .noma .item .img-wrap .btn {
     display: none;
   }
   .noma .item .text {
@@ -1161,7 +1161,7 @@ input[type="checkbox"] {
       text-align: left !important;
     }
   }
-  .noma .item .text a {
+  .noma .item .text .btn {
     display: block;
     width: fit-content;
     color: #1F1F1F;
